@@ -1,0 +1,275 @@
+*{
+          margin: 0;
+          padding: 0;
+}
+
+
+.wrap{
+          /* height: 900px; */
+          background-color:  #F3EEE8;
+}
+.head{
+          height: 800px;
+          display: flex;
+          justify-content: center;
+          margin: 0;
+}
+.bar{
+          display: flex;
+          width: 100%;
+          margin-left: 50px;
+          margin-bottom: 120px;
+          align-items: center;
+          border: 3px solid black;
+}
+.logo{
+          color: #A06056;
+          font-weight: 700;
+          font-size: 34px;
+}
+.men{
+          display: flex;
+          flex-direction: column;
+          border: 3px solid blue;
+          padding: 10px
+      
+}
+.menu{
+        
+          width: 100%;
+          color: red;
+          border: 3px solid black;
+          /* padding: 5px; */
+          margin-bottom: 5px;
+}
+.menu::after{
+          color: red;
+          width: 100%;
+          border: 2px solid red
+}
+
+.navbar{
+          display: flex;
+          justify-content: space-evenly;
+          width: 90%;
+          align-items: center;
+}
+.navbar ul{
+          display: flex;
+          justify-content: center;
+          width: 70%;
+          list-style: none;
+          justify-content: space-evenly;
+          align-items: center;
+          text-decoration: none;
+          margin-top: 10px;
+          color: #706458;
+}
+
+.navbar ul li a{
+          text-decoration: none;
+          color: #706458;
+          font-size: 18px;
+          font-weight: 400;
+
+}
+.rightdiv{
+          /* height: 50%; */
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+}
+.leftdiv{
+          width: 50%;
+
+          background: url(./header.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          
+}
+.chat{
+          display: flex;
+          padding: 20px;
+          justify-content: flex-end;
+          margin-top: 20px;
+}
+.chat i{
+          font-size: x-large;
+          border: 2px solid white;
+          color: white;
+          padding: 10px;
+          border-radius: 50%;
+          cursor: pointer;
+}
+.inner{
+          padding: 30px;
+          margin: 50px 30px 0px 70px;
+          width: 100%;
+}
+.inner h1{
+          margin: 50px 30px;
+          font-style: normal;
+          font-size: 50px;
+          font-weight: 400;
+          color:  rgb(160, 96, 86);
+
+}
+.inner h4{
+          margin: 30px;
+          font-weight: 700px;
+          font-size: larger;
+          color:  rgb(160, 96, 86);
+}
+.inner p{
+          font-size: large;
+          font-weight: 300;
+          font-style: normal;
+          color: rgba(112, 100, 88, 0.9);
+          margin: 0 30px;
+}
+.inner i{
+          font-size: large;
+          color:  rgb(160, 96, 86);
+          border-radius: 50%;
+          border: 2px solid  rgb(160, 96, 86);
+          padding: 10px;
+          margin: 50px 30px;
+          text-align: center;
+}
+.main{
+          display: flex;
+          justify-content: space-evenly;
+          width: 100%;
+          background-color:  #F3EEE8;
+          padding: 50px;
+
+}
+.text{
+          margin: 0 30px;
+          width: 50%;
+          color:  #706458;
+          padding: 0 30px;
+          align-items: center
+}
+.text h1{
+          font-weight: 300;
+          font-size: 55px;
+          margin-bottom: 40px;
+}
+.more{
+          display: flex;
+          align-items: center;
+}
+.more button{
+          font-size: large;
+          color: #A06056;
+          border: none;
+          cursor: pointer;
+}
+.more a{
+          text-decoration: none;
+          color: rgb(160, 96, 86);
+          font-size: x-large;
+}
+.more i{
+          margin-left: 5px;
+          color: rgb(160, 96, 86);
+          font-size: large;
+
+}
+
+.content{
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          padding: 30px;
+          
+}
+.row{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          /* min-width: 300px; */
+}
+.row2{
+        
+          display: flex;
+          margin-bottom: 30px;
+          justify-content: space-between;
+          margin-top: 10px;
+          /* min-width: 300px; */
+
+}
+.col, .col-2{
+          width: 50%;
+          min-width: 300px;
+
+}
+.col h2, .col-2 h2{
+          font-weight: 600;
+          font-size: 25px;
+          margin-bottom: 20px;
+          color: #A06056;
+}
+.col p, .col-2 p{
+          font-size: 18px;
+          font-weight: 400;
+          color: rgba(112, 100, 88, 0.9);
+          line-height: 25px;
+}
+.foot{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 50px;
+          margin-bottom: 70px;
+}
+.note{
+          padding: 10px;
+}
+.note h2{
+          font-weight: 300;
+          font-size: 50px;
+          color: #121212;
+          line-height: 40px;
+}
+.note p{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-weight: 400;
+          font-size: 18px;
+          color: rgba(112, 100, 88, 0.9);
+          margin: 20px 0;
+}
+.btn{
+          display: flex;
+          align-items: center;
+}
+.note button{
+          font-size: large;
+          color: #A06056;
+          border: none;
+          cursor: pointer;
+          background: none;
+}
+.note i{
+          margin-left: 5px;
+          color: rgb(160, 96, 86);
+          font-size: large;
+}
+.sub input{
+          padding: 20px 40px;
+          font-size: 18px;
+          border: none;
+          background:  rgba(243, 238, 232, 0.3);
+          cursor: pointer;
+
+}
+.sub button{
+          padding: 20px;
+          font-size: larger;
+          background:  #534B42;
+          color: white;
+          border: none;
+          margin-left: 10px;
+          cursor: pointer;
+}
