@@ -336,7 +336,7 @@
 .row-3{
           display: flex;
           justify-content: space-between;
-          margin-top: 30px;
+          margin-top: 50px;
           width: 90%;
           /* border: 3px solid blue; */
           /* align-items: center; */
@@ -369,6 +369,7 @@
           background: #F3EEE8;
 }
 .anchor-links{
+          margin-top: 50px;
           /* border: 3px solid red; */
           padding: 10px;
 }
@@ -385,6 +386,7 @@
           justify-content: space-evenly;
           width: 100%;
           margin-left: 30px;
+          margin-top: 60px;
           /* align-items: center; */
 } 
 .anchor-bar ul{
@@ -475,7 +477,7 @@
 
 }
 .icons{
-          border: 3px solid red;
+          /* border: 3px solid red; */
           display: flex;
           padding: 20px;
           width: 100%;
@@ -503,7 +505,7 @@
           margin-left: 100px;
 }
 .legal-terms{
-          border: 3px solid black;
+          /* border: 3px solid black; */
           display: flex;
           justify-content: space-evenly;
           width: 30%;
