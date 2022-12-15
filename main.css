@@ -20,6 +20,7 @@
           width: 100%;
           margin-left: 50px;
           margin-bottom: 120px;
+          margin-top: 10px;
           align-items: center;
           /* border: 3px solid black; */
 }
@@ -126,9 +127,10 @@
 }
 .chat{
           display: flex;
-          padding: 20px;
+          padding: 10px;
           justify-content: flex-end;
-          margin-top: 20px;
+          margin-top: 40px;
+          /* border: 3px solid white; */
 }
 .chat i{
           font-size: x-large;
@@ -138,10 +140,16 @@
           border-radius: 50%;
           cursor: pointer;
 }
+.chat i:hover{
+          background: white;
+          color:  rgb(160, 96, 86);
+          /* border: solid  rgb(160, 96, 86); */
+}
 .inner{
           padding: 30px;
-          margin: 50px 30px 0px 70px;
+          margin: 0px 30px 0px 70px;
           width: 100%;
+          /* border: 3px solid red; */
 }
 .inner h1{
           margin: 50px 30px;
@@ -172,6 +180,11 @@
           padding: 10px;
           margin: 50px 30px;
           text-align: center;
+          cursor: pointer;
+}
+.inner i:hover{
+          background: rgb(160, 96, 86);
+          color: #D9D9D9;
 }
 .main{
           display: flex;
@@ -295,6 +308,10 @@
           color: rgb(160, 96, 86);
           font-size: large;
 }
+.note i:hover{
+          background: #A06056;
+          color: #D9D9D9;
+}
 .sub input{
           padding: 20px 40px;
           font-size: 18px;
@@ -364,6 +381,10 @@
           font-size: x-large;
           padding: 10px;
 }
+.icon i:hover{
+          background:  #A06056;
+          color: white;
+}
 .anchor{
           /* border: 3px solid black; */
           background: #F3EEE8;
@@ -419,6 +440,8 @@
           /* border: 3px solid black; */
           /* justify-content: center; */
           padding: 0;
+          /* min-width: 300px; */
+
           
 }
 .colum h2{
@@ -492,11 +515,17 @@
           font-weight: 500;
           padding: 10px;
           margin: 10px;
+          cursor: pointer;
+}
+.icons i:hover{
+          background: #706458;
+          color: #F3EEE8;
 }
 .legal{
           display: flex;
           justify-content: space-between;
           align-items: center;
+          /* border: 3px solid black; */
 }
 .legal-note p{
           font-size: 18px;
