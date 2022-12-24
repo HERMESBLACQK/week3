@@ -3,7 +3,18 @@
           padding: 0;
 }
 
-
+.backdrop{
+          height: 100%;
+          width: 100%;
+          background: rgb(102, 101, 101, 0.2);
+          position: fixed;
+          left: 0;
+          top: 0;
+          display: none;
+        }
+        .showbackdrop{
+        display: block;
+        }
 .wrap{
           /* height: 900px; */
           background-color:  #F3EEE8;
@@ -48,6 +59,7 @@
 }
 .show-mobile-links{
           transform: translateY(0);
+          position: absolute;
 }
 .mobile-links ul{
           /* margin: 10px; */
