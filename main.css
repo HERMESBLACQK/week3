@@ -45,7 +45,7 @@
          
 }
 .mobile-links{
-          transform: translateY(-200%);
+          transform: translatex(200%);
           /* border: 3px solid white; */
           position: fixed;
           right: 0;
@@ -137,6 +137,11 @@
           background-position: center;
           
 }
+/* .leftdiv img{
+  height: 100%;
+  width: 100%;
+  size: 100%;
+} */
 .chat{
           display: flex;
           padding: 10px;
